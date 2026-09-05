@@ -1,0 +1,4 @@
+experiment,changed_variable,seed,best_epoch,best_val_accuracy,train_seconds,checkpoint
+baseline,none,42,7,0.9246823956442831,472.6898364000008,artifacts\checkpoints\baseline.pth
+randaugment,training_augmentation,42,12,0.9228675136116152,472.88705879999907,artifacts\checkpoints\randaugment.pth
+label_smoothing,training_loss,42,15,0.9364791288566243,464.3348607000007,artifacts\checkpoints\label_smoothing.pth

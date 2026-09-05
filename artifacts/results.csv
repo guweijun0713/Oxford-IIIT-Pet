@@ -1,0 +1,4 @@
+experiment,changed_variable,seed,best_epoch,best_val_accuracy,test_loss,test_top1_accuracy,test_top5_accuracy,test_macro_f1,train_seconds,checkpoint,reused_checkpoint
+baseline,none,42,7,0.9246823956442831,0.27212996495142916,0.927470534904805,0.9918404351767905,0.927003567110349,472.6898364000008,artifacts\checkpoints\baseline.pth,False
+randaugment,training_augmentation,42,12,0.9228675136116152,0.29335636340912535,0.9165911151405258,0.9927470534904805,0.9165511236781235,472.88705879999907,artifacts\checkpoints\randaugment.pth,False
+label_smoothing,training_loss,42,15,0.9364791288566243,0.4154817481421387,0.9238440616500453,0.9891205802357208,0.9236481901114767,464.3348607000007,artifacts\checkpoints\label_smoothing.pth,False

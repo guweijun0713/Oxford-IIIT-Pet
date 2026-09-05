@@ -1,0 +1,57 @@
+{
+  "selected_experiment": "label_smoothing",
+  "selection_rule": "maximum best_val_accuracy",
+  "best_val_accuracy": 0.9364791288566243,
+  "checkpoint": "artifacts\\checkpoints\\label_smoothing.pth",
+  "checkpoint_epoch": 15,
+  "gradcam_target_layer": "model.layer4[-1].conv2",
+  "top_confusions": [
+    {
+      "class_a_index": 5,
+      "class_b_index": 11,
+      "class_a": "Bengal",
+      "class_b": "Egyptian Mau",
+      "a_as_b": 3,
+      "b_as_a": 4,
+      "total_confusions": 7
+    },
+    {
+      "class_a_index": 2,
+      "class_b_index": 34,
+      "class_a": "American Pit Bull Terrier",
+      "class_b": "Staffordshire Bull Terrier",
+      "a_as_b": 3,
+      "b_as_a": 2,
+      "total_confusions": 5
+    },
+    {
+      "class_a_index": 10,
+      "class_b_index": 21,
+      "class_a": "Chihuahua",
+      "class_b": "Miniature Pinscher",
+      "a_as_b": 5,
+      "b_as_a": 0,
+      "total_confusions": 5
+    }
+  ],
+  "samples": {
+    "correct": {
+      "dataset_position": 215,
+      "source_index": 592,
+      "true_index": 11,
+      "true_class": "Egyptian Mau",
+      "predicted_index": 11,
+      "predicted_class": "Egyptian Mau",
+      "confidence": 0.9900296330451965
+    },
+    "incorrect": {
+      "dataset_position": 680,
+      "source_index": 2142,
+      "true_index": 5,
+      "true_class": "Bengal",
+      "predicted_index": 11,
+      "predicted_class": "Egyptian Mau",
+      "confidence": 0.9738865494728088
+    }
+  }
+}
