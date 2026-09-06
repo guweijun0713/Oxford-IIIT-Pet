@@ -119,7 +119,7 @@ python evaluate.py
 ```
 
 首次运行会自动下载数据和 ImageNet 预训练权重。普通源码提交不直接包含约 128 MB/个的 checkpoint；可以从 GitHub Release 下载正式权重后直接评估，也可以先运行 `train.py` 从零训练、再运行 `evaluate.py`。
-
+如果出现数据下载失败情况，可在GitHub release中下载数据集放入到data文件目录下
 只训练某一实验：
 
 ```bash
